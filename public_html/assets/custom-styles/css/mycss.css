@@ -1,0 +1,163 @@
+.nav-bg, .row-footer-bg{
+    background-color: #055837;
+}
+
+
+/*nav menus*/
+nav#menu {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Open Sans",sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.06rem;
+    padding: 0.5rem;
+}
+
+/* link */
+.navbar-default .navbar-nav > li > a {
+    color: #777;
+}
+
+.icon-white, .panel-title{
+    color: #fff;
+}
+
+.icon-black{
+    color: #000;
+}
+
+.nav-rigth-elements {
+    padding: 10px 60px;
+    display: block;
+}
+
+.nav-rigth-elements.glyphicon {
+    font-size: 25px;
+}
+
+address{
+    font-size: 12px;
+}
+
+#main-row-box {
+    background-color: #FCFCFC;
+    /*background-color: #EBEBEB;*/
+}
+
+/*news*/
+article{
+    background-color: #EEEEEE;
+}
+
+.media {
+    padding: 5px;
+}
+
+.media-heading {
+    color: #055837;
+    font-weight: 600;
+}
+
+/*override panel heading*/
+.panel > .panel-heading {
+    background-image: none;
+    background-color: #344150;
+}
+
+.panel-title {
+    font-weight: 600;
+}
+
+/*upcoming events*/
+.upcoming-event-box {
+    padding: 10px;
+}
+
+.upcoming-event-date {
+    font-weight: 600;
+    background-color: #AD070A;
+    width: 120px;
+    margin-left: 25px;
+}
+
+.upcoming-event-day {
+    font-size: 30pt;
+}
+
+.upcoming-event-month-year {
+    font-size: 14pt;
+}
+
+/*featured videos and photos*/
+.featured-videos-panel-heading.panel-title{
+    background-color: red !important;
+}
+
+.panel-default > .featured-videos-panel-heading {
+    background: #CC181E; 
+}
+
+.panel-default > .featured-photos-panel-heading {
+    background: #007800; 
+}
+
+.photos-box {
+    margin: 5px;
+}
+
+/*carousel theme*/
+.slider-navigation {
+    background: aquamarine;
+    padding: 20px 15px;
+    text-align: center;
+}
+
+#slider-thumbs { 
+    /*margin-top: -100px;*/ 
+}
+
+#slider-thumbs .list-inline li {
+    width: 12%;
+    padding: 0px;
+    margin-right: -4px;
+    cursor: pointer;
+}
+
+#slider-thumbs .list-inline li:first-child { padding-left: 5px; }
+
+.slider-nav-arrow {
+    text-align: center;
+    margin-bottom: 0px;
+    visibility: hidden;
+}
+
+.selected .slider-nav-arrow { visibility: visible; }
+
+.selected .slider-navigation { opacity: 0.5; }
+
+.photos-box > img{
+    padding: 10px;
+}
+
+/*footer*/
+footer {
+    color: #E1D7D7;
+}
+
+.contact-number-box div{
+    margin: 5px;
+}
+
+.contact-header {
+    font-weight: bolder;
+}
+
+.contact-sub-header {
+    font-style: italic;
+    text-decoration: underline;
+}
+
+#copypyright-box {
+    padding: 20px;
+    font-weight: 600;
+}

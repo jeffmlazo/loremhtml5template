@@ -1,0 +1,86 @@
+/*test utilities*/
+.border-on {
+    border: 1px solid red;
+}
+
+.videos-box{
+    width: 650px;
+    height: 310px;
+}
+
+/*small margin*/
+.margin-sm-top{
+    margin-top: 10px;
+}
+
+.margin-sm-bottom{
+    margin-bottom: 10px;
+}
+
+.margin-sm-left{
+    margin-left: 10px;
+}
+
+.margin-sm-right{
+    margin-right: 10px;
+}
+
+/*medium margin*/
+.margin-m-top{
+    margin-right: 30px;
+}
+
+.margin-m-left{
+    margin-right: 30px;
+}
+
+/*large margin*/
+.margin-lg-top{
+    margin-top: 50px;
+}
+
+/*no margin*/
+.margin-none-all{
+    margin: 0;
+}
+
+.margin-none-top {
+    margin-top: 0px;
+}
+
+.margin-none-bottom {
+    margin-bottom: 0px;
+}
+
+.mar-none-right {
+    margin-right: 0;
+}
+
+.margin-none-left {
+    margin-left: 0;
+}
+
+/*no padding*/
+.padding-none-all{
+    padding: 0;
+}
+
+/*padding left and rigth*/
+.padding-none-left-right{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.padding-none-left{
+    padding-left: 0;
+}
+
+/*button alignment*/
+.btn-align-right {
+    text-align: right;
+}
+
+/*border*/
+.border-bottom {
+    border-bottom: 1px solid #080808;
+}
