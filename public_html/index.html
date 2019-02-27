@@ -26,20 +26,19 @@
             <div class="row">
                 <!--Header-->
                 <header>
-                    
                     <!--Navigation Row Box-->
                     <div class="row nav-bg navbar-fixed-top">
                         <!--Navigation Tabs-->
                         <nav id="menu" class="col-md-offset-1">
                             <ul class="nav nav-pills">
-                                <li role="presentation"  class="active">
-                                    <a href="index.html">Home</a>
+                                <li role="presentation" class="active">
+                                    <a href="index.html"> 
+                                        Home
                                         <span class="sr-only">(active)</span>
+                                    </a>
                                 </li>
                                 <li role="presentation">
-                                    <a href="login.html">
-                                        Login
-                                    </a>
+                                    <a href="login.html">Login</a>
                                 </li>
                                 <li role="presentation">
                                     <a href="register.html">Register</a>
@@ -78,7 +77,6 @@
                             </ul>
                         </nav>
                     </div>
-
                     <div class="row margin-lg-top">
                         <div class="col-md-offset-1">
                             <img src="assets/image/lorem-logo.png" alt="" class="pull-left">
@@ -444,7 +442,7 @@
             });
 
             // handles the carousel thumbnails
-            $('[id^=carousel-selector-]').hover(function () {
+            $('[id^=carousel-selector-]').hover(function() {
                 var id_selector = $(this).attr("id");
                 var id = id_selector.substr(id_selector.length - 1);
                 id = parseInt(id);
@@ -454,7 +452,7 @@
             });
 
             // when the carousel slides, auto update
-            $('#carousel').on('slid.bs.carousel', function (e) {
+            $('#carousel').on('slid.bs.carousel', function(e) {
                 var id = $('.item.active').data('slide-number');
                 id = parseInt(id);
                 $('[id^=carousel-selector-]').removeClass('selected');
